@@ -12,7 +12,7 @@
 	<artifactId>project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>project</name>
+	<name>SimpleDemoApp</name>
 	<description>simple project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -45,6 +45,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.firebase</groupId>
+			<artifactId>firebase-admin</artifactId>
+			<version>9.6.0</version>
 		</dependency>
 	</dependencies>
 

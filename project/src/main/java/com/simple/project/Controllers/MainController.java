@@ -1,13 +1,14 @@
 package com.simple.project.Controllers;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class MainController {
     
-    @GetMapping("/Home")
-    public String homeEndpoint(){
-        return "test";
+    @GetMapping("/home")
+    public ResponseEntity<String> homeEndpoint(){
+        return ResponseEntity.ok("test");
     }
 }
