@@ -12,7 +12,7 @@ import { MainTextComponent } from './main-text-component/main-text-component';
     <header>
       <h1>Hello T-Mobile!</h1>
     </header>
-    <section>
+    <section class="content">
       <app-main-text-component></app-main-text-component>
     </section>
   </main>
