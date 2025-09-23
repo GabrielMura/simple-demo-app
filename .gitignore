@@ -10,6 +10,7 @@
 angular/node_modules
 angular/npm-debug.log
 angular/yarn-error.log
+angular/dist/*
 
 # IDEs and editors
 .idea/

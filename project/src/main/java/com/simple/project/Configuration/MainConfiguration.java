@@ -23,7 +23,7 @@ public class MainConfiguration {
             return FirebaseApp.getInstance();
         }
 
-        FileInputStream serviceAccount = new FileInputStream("/opt/tomcat/serviceAccountKey.json");
+        FileInputStream serviceAccount = new FileInputStream("/opt/tomcat/secrets/serviceAccountKey.json");
 
         FirebaseOptions options = FirebaseOptions.builder()
         .setCredentials(GoogleCredentials.fromStream(serviceAccount))

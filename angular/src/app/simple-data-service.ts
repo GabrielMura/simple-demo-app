@@ -7,7 +7,7 @@ import { SimpleData } from './simpledata';
   providedIn: 'root'
 })
 export class SimpleDataService {
-  private dataUrl = 'http://localhost:8080/SimpleDemoApp/home';
+  private dataUrl = 'https://fullstackdemoapp.com/SimpleDemoApp/api/data';
 
   constructor(private http: HttpClient) {}
 
