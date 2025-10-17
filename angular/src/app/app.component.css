@@ -6,7 +6,7 @@ header {
   height: 72px;
   padding: var(--content-padding);
   box-shadow: 0px 5px 25px var(--shadow-color);
-  color: #ea0a8e;
+  color: #0a33ea;
   text-align : center;
 }
 .content {

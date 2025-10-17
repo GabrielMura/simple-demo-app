@@ -10,7 +10,7 @@ import { MainTextComponent } from './main-text-component/main-text-component';
   template: `
   <main>
     <header>
-      <h1>Hello T-Mobile!</h1>
+      <h1>Hello World!</h1>
     </header>
     <section class="content">
       <app-main-text-component></app-main-text-component>
